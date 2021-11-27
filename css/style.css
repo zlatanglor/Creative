@@ -227,3 +227,54 @@ header .social{
     display: inline-block;
     margin-bottom: 120px;
 }
+.price h3{
+    font-family: "20 Kopeek Book";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 42px;
+    color: #181818;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.flex_price{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.price p{
+    font-family: "20 Kopeek";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #181818;
+    margin-right: 72px;
+    margin-left: 10px;
+    width: 100%;
+}
+.price p span{
+    background: #2B59C3;
+    border-radius: 5px;
+    display: inline-block;
+    width: 100%;
+    color: #FFFFFF;
+    padding: 11px 10px;
+    margin: -11px -10px;
+    box-sizing: border-box;
+}
+.price p span::after{
+    content:"▼" ;
+}
+
+.price li{
+    width: 100%;
+}
+.price img{
+    display: inline-block;
+    max-width: 634px;
+    height: 100%;
+}
+.price{
+    margin-bottom: 150px;
+}
