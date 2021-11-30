@@ -17,6 +17,7 @@
     margin: 0;
     padding: 0;
     list-style: none;
+    text-decoration: none;
 }
 .container{
     margin: auto;
@@ -216,57 +217,6 @@ header .social{
 .flex_components div:last-of-type{
     margin: 0;
 }
-/*.components ul {*/
-/*    display: flex;*/
-/*    width: 100%;*/
-/*    counter-reset: my-counter;*/
-/*}*/
-/*.components li::before{*/
-/*    content: counter(my-counter);*/
-/*    counter-increment: my-counter;*/
-/*    font-family: "20 Kopeek Book";*/
-/*    font-style: normal;*/
-/*    font-weight: normal;*/
-/*    font-size: 55px;*/
-/*    line-height: 55px;*/
-/*    color: #181818;*/
-/*    position: absolute;*/
-/*    top: 0;*/
-/*    left: 0;*/
-/*    transform: translateX(-40px);*/
-/*    width: 100%;*/
-/*}*/
-/*.components li{*/
-/*    padding-top: 25px;*/
-/*    font-family: "20 Kopeek";*/
-/*    font-style: normal;*/
-/*    font-weight: normal;*/
-/*    font-size: 18px;*/
-/*    line-height: 25px;*/
-/*    color: #181818;*/
-/*    position: relative;*/
-/*    left: 40px;*/
-/*}*/
-/*.components li:nth-child(2) {*/
-/*    margin-right: 83px;*/
-/*    margin-left: 107px;*/
-/*}*/
-/*.components li:nth-child(4) {*/
-/*    margin-right: 130px;*/
-/*    margin-left: 68px;*/
-
-/*}*/
-/*.components li span{*/
-/*    margin-top: 16px;*/
-/*    font-family: "20 Kopeek";*/
-/*    font-style: normal;*/
-/*    font-weight: normal;*/
-/*    font-size: 15px;*/
-/*    line-height: 19px;*/
-/*    color: #181818;*/
-/*    display: inline-block;*/
-/*    margin-bottom: 120px;*/
-/*}*/
 .foto_price h3{
     font-family: "20 Kopeek Book";
     font-style: normal;
@@ -317,4 +267,116 @@ header .social{
 }
 .price{
     margin-bottom: 150px;
+}
+.guideline h3{
+    font-family: '20 Kopeek Book';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 42px;
+    color: #181818;
+    margin-bottom: 15px;
+}
+.flex_guideline{
+    display: flex;
+    justify-content: space-between;
+}
+.foto_guideline{
+    width: 57%;
+    margin-bottom: 77px;
+}
+.foto_guideline img{
+    display: inline-block;
+    max-width: 635px;
+    width: 100%;
+    max-height: 439px;
+    height: 100%;
+}
+.text_guideline{
+    width: 40%;
+}
+.text_guideline p{
+    box-sizing: border-box;
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    padding: 11px 14px;
+    background: #2B59C3;
+    border-radius: 0 0 5px 5px;
+}
+.text_guideline p:first-of-type{
+    font-family: '20 Kopeek Book';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 29px;
+    border-radius: 5px 5px 0 0;
+}
+.text_guideline p:last-of-type{
+    color: #181818;
+    background: none;
+}
+.application_form h3{
+    font-family: '20 Kopeek Book';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 42px;
+    color: #181818;
+    margin-bottom: 11px;
+}
+.application_form p {
+    font-family: '20 Kopeek Book';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 29px;
+    color: #181818;
+    margin-bottom: 27px;
+}
+.application_form .contacs{
+    display: inline-block;
+    max-width: 350px;
+    width: 100%;
+    margin-right: 30px;
+}
+.contacs input{
+    border: 1px solid #181818;
+        box-sizing: border-box;
+        border-radius: 10px;
+        padding: 23px 0 23px 29px;
+        max-width: 350px;
+        width: 100%;
+        font-family: '20 Kopeek';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+        color: #868686;
+}
+form button{
+    background: #2B59C3;
+    border-radius: 40px;
+    padding: 23px 47px;
+    border: none;
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-bottom: 21px;
+}
+.agree{
+    font-family: '20 Kopeek';
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 25px;
+}
+.stages_creating{
+    margin-top: 150px;
 }
