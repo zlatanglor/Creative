@@ -378,5 +378,117 @@ form button{
         line-height: 25px;
 }
 .stages_creating{
-    margin-top: 150px;
+    padding: 150px 0;
+}
+.stages_creating h2{
+    font-family: '20 Kopeek Book';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 55px;
+    color: #181818;
+    margin-bottom: 83px;
+}
+.flex_table{
+    display: flex;
+    /*flex-wrap: wrap-reverse;*/
+    flex-wrap: wrap;
+}
+.column1 img{
+    display: inline-block;
+    max-width: 82px;
+    width: 100%;
+    margin-bottom: 23px;
+
+}
+/*.flex_table.row3 img*/
+.item1.row3 img
+{
+    max-width: 60px;
+}
+.column1 p{
+    font-family: '20 Kopeek Book';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 29px;
+    color: #181818;
+}
+.column p{
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: #181818;
+}
+.column :first-of-type{
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 15px;
+}
+.item1{
+    width: 25%;
+    margin-right: 155px;
+    /*order: 1;*/
+}
+.item2{
+    width: 15%;
+    margin-right: 30px;
+    /*order: 2;*/
+}
+.item3{
+    width: 16%;
+    margin-right: 30px;
+    /*order: 3;*/
+}
+.item4{
+    width: 18%;
+    /*order: 4;*/
+}
+.row1, .row2{
+    margin-bottom: 60px;
+}
+@media (max-width:992px) {
+    .container{
+        max-width: 690px;
+    }
+    .flex_table{
+        justify-content: space-between;
+        /*flex-wrap: wrap-reverse;*/
+    }
+    .column1 p{
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .column p{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .column :first-of-type{
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 18px;
+    }
+    .column1 img{
+        margin-bottom: 17px;
+    }
+    .item1{
+        /*order: 4;*/
+        /*width: 30%;*/
+        width: 100%;
+        margin: 0 0 18px 0;
+    }
+    .item4{
+        /*order: 3;*/
+        width: 24%;
+    }
+    .item2{
+        /*order: 1;*/
+        width: 23%;
+    }
+    .item3{
+        /*order: 2;*/
+        width: 29%;
+    }
 }
