@@ -187,34 +187,36 @@ header .social{
     color: #181818;
     margin-bottom: 40px;
 }
+.components{
+    padding-bottom: 120px;
+}
 .flex_components{
     display: flex;
     justify-content: space-between;
-    margin-bottom: 120px;
 }
-.flex_components span{
-        font-family: "20 Kopeek Book";
-        font-style: normal;
-        font-weight: normal;
-        font-size: 55px;
-        line-height: 55px;
-        color: #181818;
+.components .flex_components span{
+    font-family: "20 Kopeek Book";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 55px;
+    color: #181818;
 }
-.flex_components p{
-        font-family: "20 Kopeek";
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 25px;
-        color: #181818;
-        margin-left: 8px;
-        padding-top: 25px;
+.components .flex_components p{
+    font-family: "20 Kopeek";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #181818;
+    margin-left: 8px;
+    padding-top: 25px;
 }
-.flex_components div{
+.components .flex_components div{
     display: flex;
     margin-right:60px ;
 }
-.flex_components div:last-of-type{
+.components .flex_components div:last-of-type{
     margin: 0;
 }
 .foto_price h3{
@@ -536,6 +538,50 @@ form button{
 }
 .border_row ._item2, .border_row ._item3,.border_row ._item4{
     border-bottom: 0.5px solid #868686;
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*<section class="guarantee">*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+
+.guarantee{
+    background-image: url("../images/guarantee_background.jpg");
+    background-size: cover;
+    height: 100vh;
+    padding-top: 282px;
+    padding-bottom: 80px;
+}
+.guarantee h2{
+    font-family: '20 Kopeek Book';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 55px;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+}
+.guarantee .flex_components div{
+    display: flex;
+    margin-right: 28px;
+    width: 18%;
+}
+.guarantee .flex_components span{
+    font-family: '20 Kopeek Book';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 55px;
+    color: #FFFFFF;
+    margin-right: 8px;
+}
+.guarantee .flex_components p {
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 19px;
+    color: #FFFFFF;
+    padding-top: 25px;
 }
 
 
