@@ -564,7 +564,8 @@ form button{
     padding-top: 26px;
 }
 
-.row_1 ._item3{
+.row_1 ._item3
+{
     font-family: '20 Kopeek Book';
     font-style: normal;
     font-weight: normal;
@@ -623,32 +624,71 @@ form button{
 
 /*    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 
+
     .flex__test{
         flex-wrap: wrap-reverse;
         justify-content: space-between;
+        padding: 0;
+        margin: 0;
     }
     .row_1 ._item1{
         display: none;
     }
+    /*.row_2 ._item4{*/
+    /*    padding: 18px 0 29px 0;*/
+    /*}*/
     ._item2{
         order: 1;
         border: none;
+        width: 25%;
+        padding-right: 51px;
+        /*padding: 17px 0 17px 0;*/
+        margin-right: 50px;
     }
     ._item3{
         order: 2;
+        width: 27%;
+        /*padding: 0;*/
+        /*padding: 17px 0 17px 0;*/
+
 
     }
     ._item4{
         order: 3;
         border: none;
+        width: 32%;
+        /*padding: 17px 0 17px 0;*/
 
     }
     ._item1{
         order: 4;
         width: 100%;
+        font-size: 20px;
+        line-height: 22px;
     }
+    .row_1 ._item2, .row_1 ._item3, .row_1 ._item4{
+        font-size: 34px;
+         line-height: 37px;
+        padding: 15px 0 15px 0;
+    }
+    .row_1 ._item3{
+        padding-left: 15px;
+    }
+    .row_2 ._item2, .row_3 ._item3, .row_3 ._item4{
+        padding: 15px 0 15px 0;
+    }
+    .row_3 ._item3{
+        padding-left: 15px;
+    }
+
+
+    /*MARGIN -*//*MARGIN -*//*MARGIN -*//*MARGIN -*//*MARGIN -*//*MARGIN -*/
     .flex__test div:first-of-type{
         border-radius: 10px;
-        padding: 3px 0 5px 18px;
+        padding: 5px 0 5px  17px;
+        margin: 0 -17px 0 -17px;
+        max-width: 724px;
+        /*box-sizing: border-box;*/
     }
+    /*MARGIN -*//*MARGIN -*//*MARGIN -*//*MARGIN -*//*MARGIN -*//*MARGIN -*/
 }
