@@ -23,6 +23,10 @@
     margin: auto;
     max-width: 1110px;
 }
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*HEADER*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 header{
     position: absolute;
     width: 100%;
@@ -81,6 +85,10 @@ header .social{
     display: inline-block;
     line-height: 38px;
 }
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*<section class="main_banner">*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .main_banner{
     background-image: url("../images/011.jpg");
     background-size: cover;
@@ -100,7 +108,6 @@ header .social{
 .main_banner .banner4{
     background-image: url("../images/014.jpg");
 }
-
 .main_banner h1{
     font-family: "20 Kopeek Book";
     font-style: normal;
@@ -133,6 +140,10 @@ header .social{
     margin-right: 20px;
     box-sizing: border-box;
 }
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*<section class="about">*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .about{
     padding: 70px 0 141px;
     box-sizing: border-box;
@@ -151,14 +162,12 @@ header .social{
     color: #181818;
     margin-bottom: 5px;
 }
-
 .foto_about{
     width: 57%;
 }
 .text_about{
     width: 40%;
 }
-
 .foto_about img{
     display: inline-block;
     width: 100%;
@@ -166,7 +175,6 @@ header .social{
     max-height: 381px;
     height: 100%;
 }
-
 .text_about p {
     font-family: "20 Kopeek";
     font-style: normal;
@@ -178,6 +186,10 @@ header .social{
 .text_about p:first-of-type{
     margin-bottom: 25px;
 }
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*<section class="components">*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .components h2{
     font-family: "20 Kopeek Book";
     font-style: normal;
@@ -219,6 +231,10 @@ header .social{
 .components .flex_components div:last-of-type{
     margin: 0;
 }
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*<section class="price">*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .foto_price h3{
     font-family: "20 Kopeek Book";
     font-style: normal;
@@ -270,6 +286,10 @@ header .social{
 .price{
     margin-bottom: 150px;
 }
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*<section class="guideline">*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .guideline h3{
     font-family: '20 Kopeek Book';
     font-style: normal;
@@ -321,6 +341,10 @@ header .social{
     color: #181818;
     background: none;
 }
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*<section class="application_form">*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .application_form h3{
     font-family: '20 Kopeek Book';
     font-style: normal;
@@ -347,17 +371,17 @@ header .social{
 }
 .contacs input{
     border: 1px solid #181818;
-        box-sizing: border-box;
-        border-radius: 10px;
-        padding: 23px 0 23px 29px;
-        max-width: 350px;
-        width: 100%;
-        font-family: '20 Kopeek';
-        font-style: normal;
-        font-weight: normal;
-        font-size: 18px;
-        line-height: 25px;
-        color: #868686;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 23px 0 23px 29px;
+    max-width: 350px;
+    width: 100%;
+    font-family: '20 Kopeek';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    color: #868686;
 }
 form button{
     background: #2B59C3;
@@ -379,6 +403,10 @@ form button{
         font-size: 18px;
         line-height: 25px;
 }
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+/*<section class="stages_creating">*/
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 .stages_creating{
     padding: 150px 0;
 }
@@ -393,7 +421,6 @@ form button{
 }
 .flex_table{
     display: flex;
-    /*flex-wrap: wrap-reverse;*/
     flex-wrap: wrap;
 }
 .column1 img{
@@ -401,11 +428,8 @@ form button{
     max-width: 82px;
     width: 100%;
     margin-bottom: 23px;
-
 }
-/*.flex_table.row3 img*/
-.item1.row3 img
-{
+.item1.row3 img {
     max-width: 60px;
 }
 .column1 p{
@@ -455,7 +479,6 @@ form button{
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /*<section class="comparison_of_companies">*/
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-
 .comparison_of_companies{
     padding-bottom: 150px;
 }
@@ -543,10 +566,10 @@ form button{
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /*<section class="guarantee">*/
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-
 .guarantee{
     background-image: url("../images/guarantee_background.jpg");
     background-size: cover;
+    background-position: center top;
     height: 100vh;
     padding-top: 282px;
     padding-bottom: 80px;
@@ -585,9 +608,8 @@ form button{
 }
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-/*<section class="guarantee">*/
+/*<section class="feedback">*/
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-
 .feedback{
     padding-top: 150px;
 }
@@ -631,7 +653,6 @@ form button{
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /*<section class="smi">*/
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-
 .smi{
     padding-top: 127px;
 }
@@ -660,7 +681,6 @@ form button{
 }
 .smi_flex a{
     display: inline-block;
-    /*width: 100%;*/
     font-family: '20 Kopeek';
     font-style: normal;
     font-weight: normal;
@@ -669,7 +689,7 @@ form button{
     color: #FFFFFF;
     margin-bottom: 25px;
 }
-.smi_flex div{
+.smi_flex div {
     width: 23%;
     background: #2B59C3;
     border-radius: 10px;
@@ -680,7 +700,6 @@ form button{
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /*FOOTER*/
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
-
 footer{
     padding: 38px 0 20px 0;
     font-family: '20 Kopeek';
@@ -690,9 +709,6 @@ footer{
     line-height: 25px;
     color: #181818;
 }
-
-
-
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 @media (max-width:992px) {
