@@ -85,6 +85,13 @@ header .social{
     display: inline-block;
     line-height: 38px;
 }
+/*header img*/
+.logo{
+    animation: scale 2s infinite;
+    position: relative;
+    display: inline-block;
+    transform: scale(1);
+}
 
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /*<section class="main_banner">*/
