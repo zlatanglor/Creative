@@ -1,4 +1,7 @@
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 1199px) {
+    /*.container{*/
+    /*    max-width: 930px;*/
+    /*}*/
 
 }
 @media only screen and (max-width: 992px) {
@@ -14,26 +17,249 @@
 
 }
 @media only screen and (max-width: 360px) {
+    .container{
+        max-width: 290px;
+    }
+    /*HEADER*/
+    header{
+        padding-top: 27px;
+    }
+    header p{
+        margin-left: 20px;
+        font-size: 12px;
+        line-height: 13px;
+        margin-right: 50px;
+    }
+    header ul{
+        display: none;
+    }
+    .flex_header{
+        align-items: center;
+    }
+    .burger{
+        width: 30px;
+        height: 18px;
+        position: relative;
+    }
+    .burger span{
+        position: absolute;
+        background-color: #181818;
+        width: 100%;
+        height: 2px;
+        left: 0;
+        top: 8px;
+    }
+    .burger:before, .burger:after{
+        content:"";
+        background: #181818;
+        left: 0;
+        position: absolute;
+        width: 100%;
+        height: 2px;
+    }
+    .burger:before{
+        top: 0;
+    }
+    .burger:after{
+        bottom: 0;
+    }
+    /*main_banner*/
+    .main_banner{
+        background-image: url("../images/background_mobile.jpg");
+        padding: 145px 0 191px;
+    }
+    .main_banner .container{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .main_banner h1{
+        font-family: '20 Kopeek';
+        font-size: 30px;
+        line-height: 33px;
+        color: #FFFFFF;
+        margin-bottom: 15px;
+        order: 1;
+    }
+    .main_banner h1 br{
+        display: none;
+    }
+    .main_banner p{
+        font-family: '20 Kopeek';
+        font-size: 20px;
+        line-height: 22px;
+        color: #FFFFFF;
+        margin-bottom: 40px;
+        order: 2;
+        width: 63%;
+    }
+    .main_banner .btn{
+        font-size: 15px;
+        margin: 0 0 20px 0;
+        order: 4;
+    }
+    .main_banner .btn+.btn{
+        order: 3;
+    }
+
+    /*about*/
+    .about{
+        padding: 56px 0 90px;
+    }
+    .about h3{
+        font-size: 32px;
+        line-height: 35px;
+        margin-bottom: 15px;
+    }
+    .flex_about{
+        flex-wrap: wrap;
+    }
+    .foto_about{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .text_about{
+        width: 100%;
+    }
+    .text_about p{
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+    /*components*/
+    .components h2{
+        font-size: 35px;
+        line-height: 35px;
+    }
+    .flex_components{
+        flex-wrap: wrap;
+    }
+    .components .flex_components span{
+        font-size: 35px;
+        line-height: 35px;
+        margin-bottom: 37px;
+    }
+    .components .flex_components p{
+        font-size: 15px;
+        line-height: 21px;
+        margin-left: 57px;
+        padding-top: 12px;
+    }
+    .components .flex_components div{
+        width: 100%;
+        margin: 0;
+    }
+
+    /*price*/
+    .price{
+        padding-bottom: 100px;
+    }
+    .flex_price{
+        flex-wrap: wrap-reverse;
+    }
+    .text_price{
+        width: 100%;
+    }
+    .text_price p{
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .foto_price{
+        width: 100%;
+    }
+    .foto_price h3{
+        font-size: 32px;
+        line-height: 35px;
+    }
+
+    /*portfolio*/
+    .portfolio h4{
+        font-size: 35px;
+        line-height:35px;
+        margin: 0 0 15px;
+        order: 1;
+        margin-bottom: 11px;
+    }
+    .portfolio p{
+        font-size: 15px;
+        line-height: 21px;
+        order: 2;
+        margin-bottom: 30px;
+    }
+    .photo_portfolio{
+        margin-bottom: 15px;
+    }
+    .portfolio .btn{
+        font-size: 18px;
+        line-height: 25px;
+        order: 3;
+    }
+    .gallery_item{
+        margin-bottom: 60px;
+    }
+    .gallery_item:last-of-type{
+        margin-bottom: 90px;
+    }
+    .portfolio{
+        padding-bottom: 120px;
+    }
+
+    /*guideline*/
+    .flex_guideline{
+        flex-wrap: wrap;
+
+    }
+    .foto_guideline{
+        width: 100%;
+        margin-bottom: 26px;
+        background-image: url("../images/gaid_mobile.jpg");
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+    }
+    .text_guideline{
+        width: 100%;
+    }
+    .guideline h3{
+        font-size: 32px;
+        line-height: 35px;
+        margin-bottom: 16px;
+    }
+    .guideline p{
+        font-size: 15px;
+        line-height: 21px;
+    }
+    .guideline p:first-of-type{
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .guideline{
+        padding-top: 90px;
+    }
+    .foto_guideline img{
+        display: none;
+
+    }
 
 }
 @media only screen and (max-width: 320px) {
 
 }
 
-@keyframes scale {
-    0% {
-        transform: scale(1);
-        bottom: 0;
-    }
+/*@keyframes scale {*/
+/*    0% {*/
+/*        transform: scale(1);*/
+/*        bottom: 0;*/
+/*    }*/
 
 
-    50% {
-    bottom: -50px;
-    }
+/*    50% {*/
+/*    bottom: -50px;*/
+/*    }*/
 
-    100% {
-        transform: scale(1.3);
-        bottom: 0;
-    }
+/*    100% {*/
+/*        transform: scale(1.3);*/
+/*        bottom: 0;*/
+/*    }*/
 
-}
+/*}*/
