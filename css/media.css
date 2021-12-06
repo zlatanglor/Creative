@@ -16,32 +16,39 @@
 @media only screen and (max-width: 375px) {
 
 }
-@media only screen and (max-width: 360px) {
-    .container{
+/*@media only screen and (max-width: 360px)*/
+@media only screen and (max-width: 575px){
+    .container {
         max-width: 290px;
     }
+
     /*HEADER*/
-    header{
+    header {
         padding-top: 27px;
     }
-    header p{
+
+    header p {
         margin-left: 20px;
         font-size: 12px;
         line-height: 13px;
         margin-right: 50px;
     }
-    header ul{
+
+    header ul {
         display: none;
     }
-    .flex_header{
+
+    .flex_header {
         align-items: center;
     }
-    .burger{
+
+    .burger {
         width: 30px;
         height: 18px;
         position: relative;
     }
-    .burger span{
+
+    .burger span {
         position: absolute;
         background-color: #181818;
         width: 100%;
@@ -49,31 +56,37 @@
         left: 0;
         top: 8px;
     }
-    .burger:before, .burger:after{
-        content:"";
+
+    .burger:before, .burger:after {
+        content: "";
         background: #181818;
         left: 0;
         position: absolute;
         width: 100%;
         height: 2px;
     }
-    .burger:before{
+
+    .burger:before {
         top: 0;
     }
-    .burger:after{
+
+    .burger:after {
         bottom: 0;
     }
+
     /*main_banner*/
-    .main_banner{
+    .main_banner {
         background-image: url("../images/background_mobile.jpg");
         padding: 145px 0 191px;
     }
-    .main_banner .container{
+
+    .main_banner .container {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
-    .main_banner h1{
+
+    .main_banner h1 {
         font-family: '20 Kopeek';
         font-size: 30px;
         line-height: 33px;
@@ -81,10 +94,12 @@
         margin-bottom: 15px;
         order: 1;
     }
-    .main_banner h1 br{
+
+    .main_banner h1 br {
         display: none;
     }
-    .main_banner p{
+
+    .main_banner p {
         font-family: '20 Kopeek';
         font-size: 20px;
         line-height: 22px;
@@ -93,123 +108,146 @@
         order: 2;
         width: 63%;
     }
-    .main_banner .btn{
+
+    .main_banner .btn {
         font-size: 15px;
         margin: 0 0 20px 0;
         order: 4;
     }
-    .main_banner .btn+.btn{
+
+    .main_banner .btn + .btn {
         order: 3;
     }
 
     /*about*/
-    .about{
+    .about {
         padding: 56px 0 90px;
     }
-    .about h3{
+
+    .about h3 {
         font-size: 32px;
         line-height: 35px;
         margin-bottom: 15px;
     }
-    .flex_about{
+
+    .flex_about {
         flex-wrap: wrap;
     }
-    .foto_about{
+
+    .foto_about {
         width: 100%;
         margin-bottom: 30px;
     }
-    .text_about{
+
+    .text_about {
         width: 100%;
     }
-    .text_about p{
+
+    .text_about p {
         font-size: 15px;
         line-height: 21px;
     }
 
     /*components*/
-    .components h2{
+    .components h2 {
         font-size: 35px;
         line-height: 35px;
     }
-    .flex_components{
+
+    .flex_components {
         flex-wrap: wrap;
     }
-    .components .flex_components span{
+
+    .components .flex_components span {
         font-size: 35px;
         line-height: 35px;
         margin-bottom: 37px;
     }
-    .components .flex_components p{
+
+    .components .flex_components p {
         font-size: 15px;
         line-height: 21px;
         margin-left: 57px;
         padding-top: 12px;
     }
-    .components .flex_components div{
+
+    .components .flex_components div {
         width: 100%;
         margin: 0;
     }
 
     /*price*/
-    .price{
+    .price {
         padding-bottom: 100px;
     }
-    .flex_price{
+
+    .flex_price {
         flex-wrap: wrap-reverse;
     }
-    .text_price{
+
+    .text_price {
         width: 100%;
     }
-    .text_price p{
+
+    .text_price p {
         font-size: 15px;
         line-height: 21px;
     }
-    .foto_price{
+
+    .foto_price {
         width: 100%;
     }
-    .foto_price h3{
+
+    .foto_price h3 {
         font-size: 32px;
         line-height: 35px;
     }
 
     /*portfolio*/
-    .portfolio h4{
+    .portfolio h4 {
         font-size: 35px;
-        line-height:35px;
+        line-height: 35px;
         margin: 0 0 15px;
         order: 1;
         margin-bottom: 11px;
     }
-    .portfolio p{
+
+    .portfolio p {
         font-size: 15px;
         line-height: 21px;
         order: 2;
         margin-bottom: 30px;
     }
-    .photo_portfolio{
+
+    .photo_portfolio {
         margin-bottom: 15px;
     }
-    .portfolio .btn{
+
+    .portfolio .btn {
         font-size: 18px;
         line-height: 25px;
         order: 3;
     }
-    .gallery_item{
+
+    .gallery_item {
         margin-bottom: 60px;
     }
-    .gallery_item:last-of-type{
+
+    .gallery_item:last-of-type {
         margin-bottom: 90px;
     }
-    .portfolio{
+
+    .portfolio {
         padding-bottom: 120px;
     }
 
     /*guideline*/
-    .flex_guideline{
+    .flex_guideline {
         flex-wrap: wrap;
 
     }
-    .foto_guideline{
+
+    .foto_guideline {
         width: 100%;
         margin-bottom: 26px;
         background-image: url("../images/gaid_mobile.jpg");
@@ -217,31 +255,243 @@
         background-position: center top;
         background-repeat: no-repeat;
     }
-    .text_guideline{
+
+    .text_guideline {
         width: 100%;
     }
-    .guideline h3{
+
+    .guideline h3 {
         font-size: 32px;
         line-height: 35px;
         margin-bottom: 16px;
     }
-    .guideline p{
+
+    .guideline p {
         font-size: 15px;
         line-height: 21px;
     }
-    .guideline p:first-of-type{
+
+    .guideline p:first-of-type {
         font-size: 20px;
         line-height: 22px;
     }
-    .guideline{
+
+    .guideline {
+        padding-bottom: 90px;
+    }
+
+    .foto_guideline img {
+        /*display: none;*/
+    }
+
+    /*application_form*/
+    .application_form h3 {
+        font-size: 32px;
+        line-height: 35px;
+        margin-bottom: 16px;
+    }
+
+    .application_form p {
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: 30px;
+        order: 2;
+    }
+
+    .application_form .contacs {
+        margin: 0 0 10px 0;
+        order: 1;
+    }
+
+    .contacs input {
+        padding: 20px 0 20px 20px;
+    }
+
+    .agree {
+        font-size: 15px;
+        line-height: 21px;
+        order: 3;
+        margin-bottom: 31px;
+    }
+
+    form button {
+        font-size: 15px;
+        line-height: 21px;
+        order: 4;
+        margin: 0;
+    }
+
+    .application_form form {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    /*stages_creating*/
+    .stages_creating {
+        padding: 100px 0 90px;
+    }
+
+    .stages_creating h2 {
+        font-size: 35px;
+        line-height: 35px;
+        margin-bottom: 35px;
+    }
+
+    .column1 p {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    .column p {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .column :first-of-type {
+        font-size: 15px;
+        line-height: 21px;
+        margin-bottom: 20px;
+    }
+
+    .column.row3 :first-of-type {
+        margin: 0;
+    }
+
+    .column1 img {
+        margin-bottom: 13px;
+        max-width: 62px;
+    }
+
+    .item1 {
+        width: 74%;
+        margin: 0 0 40px 0;
+    }
+
+    .item1.row3 {
+        max-width: 61%;
+    }
+
+    .item1.row3 img {
+        max-width: 45px;
+    }
+
+    .item2 {
+        width: 46%;
+        margin: 0 20px 0 0;
+    }
+
+    .item3 {
+        width: 46%;
+        margin: 0 0 26px 0;
+    }
+
+    .item3.row2 br {
+        display: none;
+    }
+
+    .item4 {
+        width: 46%;
+        margin: 0 0 65px 0;
+    }
+
+    .item4.row3 {
+        margin: 0;
+    }
+
+    /*comparison_of_companies*/
+    .comparison_of_companies {
+        display: none;
+    }
+
+    /*guarantee*/
+    .guarantee {
+        display: none;
+    }
+
+    /*feedback*/
+    .feedback {
+        padding: 0;
+    }
+
+    .feedback_flex {
+        flex-wrap: wrap;
+    }
+
+    .feed {
+        margin: 0 0 60px;
+    }
+
+    .feedback h4 {
+        font-size: 34px;
+        line-height: 37px;
+    }
+
+    .feedback .contacs + .contacs {
+        margin-bottom: 10px;
+    }
+
+    .feedback .agree {
+        margin-bottom: 31px;
+    }
+
+    .feedback p {
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: 10px;
+    }
+
+    .feedback p:last-of-type {
+        margin: 0;
+    }
+
+    /*feedback*/
+    .smi {
         padding-top: 90px;
     }
-    .foto_guideline img{
-        display: none;
 
+    .smi h3 {
+        font-size: 32px;
+        line-height: 35px;
+        margin-bottom: 30px;
+    }
+    .smi_flex{
+        flex-wrap: wrap;
+    }
+    .smi_flex div{
+        width: 100%;
+        margin: 0 0 20px 0;
+    }
+    .smi_flex div:last-of-type{
+        margin: 0;
+    }
+    .smi_flex a{
+        margin-bottom: 30px;
+        width: 87%;
+    }
+    .smi_flex .n1{
+        order: 1;
+    }
+    .smi_flex .n2{
+        order: 3;
+    }
+    .smi_flex .n3{
+        order: 2;
+    }
+    .smi_flex .n4{
+        order: 4;
     }
 
+    /*footer*/
+    footer{
+        padding-top: 26px;
+        font-size: 15px;
+        line-height: 21px;
+    }
+
+
 }
+
 @media only screen and (max-width: 320px) {
 
 }
