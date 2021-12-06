@@ -1,7 +1,355 @@
 @media only screen and (max-width: 1199px) {
-    /*.container{*/
-    /*    max-width: 930px;*/
-    /*}*/
+    .container{
+        max-width: 930px;
+    }
+
+    /*header*/
+    header{
+        padding-top: 37px;
+    }
+    header p {
+        font-size: 14px;
+        line-height: 18px;
+        margin-left: 20px;
+    }
+    .flex_header{
+        padding: 0;
+    }
+    header li{
+        margin-left: 28px;
+    }
+
+    /*main_banner*/
+    .main_banner{
+        padding: 301px 0 225px;
+    }
+    .main_banner h1{
+        font-size: 45px;
+        line-height: 45px;
+        margin-bottom: 25px;
+    }
+    .main_banner p{
+        line-height: 29px;
+        font-size: 26px;
+        margin-bottom: 55px;
+    }
+    .main_banner .btn{
+        margin-right: 30px;
+    }
+
+    /*about*/
+    .about {
+        padding: 80px 0 120px;
+    }
+    .about h3{
+        font-size: 34px;
+        line-height: 37px;
+        margin-bottom: 15px;
+    }
+    .foto_about{
+        width: 48%;
+    }
+    .text_about{
+        width: 48%;
+    }
+    .flex_about{
+        align-items: stretch;
+    }
+
+    .text_about p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .text_about p:first-of-type{
+        margin-bottom: 22px;
+    }
+
+    /*components*/
+    .components h2{
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .components .flex_components span{
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .components .flex_components p{
+        padding-top: 22px;
+    }
+    .components .flex_components div{
+        margin: 0;
+        width: 19%;
+    }
+    .components .flex_components div:last-of-type{
+        width: 28%;
+    }
+    /*price*/
+    .price{
+        padding-bottom: 120px;
+    }
+    .foto_price h3{
+        font-size: 34px;
+        line-height: 37px;
+        margin-bottom: 16px;
+    }
+    .text_price{
+        width: 40%;
+    }
+    .text_price p{
+        font-size: 16px;
+        line-height: 22px;
+        padding: 5px 14px;
+    }
+
+    /*portfolio*/
+    .portfolio{
+        padding-bottom: 120px;
+    }
+    .photo_portfolio{
+        margin-bottom: 40px;
+    }
+    .portfolio h4{
+        font-size: 45px;
+        line-height: 45px;
+        margin-right: 100px;
+    }
+    .portfolio .btn{
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .portfolio p{
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .gallery_item{
+        margin-bottom: 50px;
+    }
+    .gallery_item:last-of-type{
+        margin-bottom: 20px;
+    }
+    .portfolio_btn{
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    /*guideline*/
+    .guideline{
+        padding-bottom: 87px;
+    }
+    .guideline h3{
+        font-size: 38px;
+        line-height: 42px;
+        margin-bottom: 19px;
+    }
+    .foto_guideline img{
+        max-height: 366px;
+    }
+    .text_guideline p{
+        font-size: 16px;
+        line-height: 22px;
+        padding: 10px 8px;
+    }
+    .text_guideline p:first-of-type{
+        font-size: 20px;
+    }
+
+    /*application_form*/
+    .application_form h3 {
+        line-height: 37px;
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+    .application_form p{
+        font-size: 20px;
+        line-height: 22px;
+        margin-bottom: 24px;
+    }
+    .application_form .contacs{
+        max-width: 450px;
+        margin-bottom: 22px;
+        order: 1;
+    }
+    .application_form .contacs+.contacs{
+        margin-right: 0;
+    }
+    .application_form .contacs input{
+        font-size: 16px;
+        line-height: 22px;
+        max-width: 450px;
+    }
+    .application_form form{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .application_form .agree{
+        order: 2;
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .application_form button {
+        order: 3;
+        margin: 0;
+        font-size: 16px;
+        line-height: 22px;
+    }
+    .agree{
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    /*stages_creating*/
+    .stages_creating{
+        padding: 100px 0 120px;
+    }
+    .stages_creating h2{
+        font-size: 45px;
+        line-height: 45px;
+        margin-bottom: 87px;
+    }
+    .column1 p{
+        font-size: 20px;
+        line-height: 22px;
+    }
+    .column p{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .column:first-of-type{
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 18px;
+    }
+    .item1{
+        width: 23%;
+        margin-right: 80px;
+    }
+    .item2{
+        width: 17%;
+        margin-right: 44px;
+    }
+    .item3{
+        width: 17%;
+        margin-right: 74px;
+    }
+    .item3.row2 br{
+        display: none;
+    }
+
+    /*comparison_of_companies*/
+    .comparison_of_companies{
+        padding-bottom: 100px;
+    }
+    .flex_row.pad ._item2,.flex_row.pad ._item3,.flex_row.pad ._item4{
+        font-size: 34px;
+        line-height: 37px;
+    }
+    ._item1{
+        font-size: 20px;
+        line-height: 22px;
+    }
+    ._item2{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    ._item3{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    ._item4{
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    /*guarantee*/
+    .guarantee{
+        padding: 97px 0 60px;
+    }
+    .guarantee h2{
+        font-size: 45px;
+        line-height: 45px;
+        margin-bottom: 70px;
+    }
+    .guarantee .flex_components span{
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .guarantee .flex_components p{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .guarantee .flex_components div{
+        margin-right: 7px;
+        width: 20%;
+    }
+
+    /*feedback*/
+    .feedback{
+        padding-top: 100px;
+    }
+    .feedback h4{
+        line-height: 37px;
+        font-size: 34px;
+        margin-bottom: 31px;
+    }
+    .feedback .contacs input{
+        max-width: 370px;
+    }
+    .feedback .contacs+.contacs{
+        margin-bottom: 10px;
+    }
+    .feedback .contacs{
+        max-width: 370px;
+    }
+    .feedback .agree{
+        margin-bottom: 30px;
+    }
+    form button{
+        font-size: 16px;
+        line-height: 22px;
+        margin: 0;
+    }
+    .feed{
+        margin-right: 110px;
+    }
+    .feedback p{
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    /*smi*/
+    .smi{
+        padding-top: 120px;
+    }
+    .smi h3{
+        font-size: 34px;
+        line-height: 37px;
+        margin-bottom: 31px;
+    }
+    .smi_flex a{
+        font-size: 16px;
+        line-height: 22px;
+        margin-bottom: 28px;
+    }
+    .smi_flex p{
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .smi_flex div{
+        padding: 6px 0 0 8px;
+    }
+    .smi_flex div:last-of-type{
+        margin: 0;
+    }
+
+    /*footer*/
+    footer{
+        padding: 30px 0 20px;
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+
+
 
 }
 @media only screen and (max-width: 992px) {
