@@ -109,6 +109,16 @@ header .social:hover{
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
 /*<section class="main_banner">*/
 /*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+.banner{
+    background-image: url("../images/011.jpg");
+    background-size: cover;
+    background-position: center top;
+    height: 100vh;
+    /*padding-top: 344px;*/
+    /*padding-bottom: 309px;*/
+    box-sizing: border-box;
+    /*margin-bottom: 70px;*/
+}
 .main_banner{
     background-image: url("../images/011.jpg");
     background-size: cover;

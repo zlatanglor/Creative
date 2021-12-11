@@ -17,4 +17,8 @@ $(document).ready(function(){
             }
         }
     });
+    $('.burger').click(function() {
+        $('.burger').toggleClass('burger_active');
+    });
 });
+// .nav-bar
