@@ -1,4 +1,5 @@
 $(document).ready(function(){
+    // owl carusel
     $('.owl-carousel').owlCarousel({
         loop:true,
         margin:0,
@@ -17,8 +18,28 @@ $(document).ready(function(){
             }
         }
     });
+    // burger menu
     $('.burger').click(function() {
         $('.burger').toggleClass('burger_active');
     });
+// dialog
+    $( "#dialog" ).dialog({
+        autoOpen: false,
+        show: {
+            effect: "blind",
+            duration: 1000
+        },
+        hide: {
+            effect: "explode",
+            duration: 1000
+        },
+        width: 648,
+        height: 495,
+        modal: true
+        // title: false
+    });
+    $( "#opener" ).on( "click", function() {
+        $( "#dialog" ).dialog( "open" );
+    });
+
 });
-// .nav-bar

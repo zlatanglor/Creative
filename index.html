@@ -5,13 +5,36 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="css/style.css">
+
     <link rel="stylesheet" href="css/media.css">
     <link rel="stylesheet" href="css/owl.carousel.min.css">
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.0/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https:/resources/demos/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Creative</title>
 </head>
 <body>
+<!--dialog js-->
+<div id="dialog" class="container" title="Оставить заявку">
+    <form action="#" method="post">
+        <div class="contacs">
+            <label for="name2"></label>
+            <input type="text" id="name2" name="name" placeholder="Ваше Имя">
+        </div>
+        <div class="contacs">
+            <label for="tel2"></label>
+            <input type="tel" id="tel2" name="tel" placeholder="+7 (999) 999-99-99">
+        </div>
+        <button type="submit">Оставить заявку</button>
+        <div class="agree">
+            <label for="agree2">
+                <input type="checkbox" id="agree2" name="agree" checked>
+                Я принимаю <a href="#">условия передачи персональных данных</a>
+            </label>
+        </div>
+    </form>
+</div>
 <!--/*!!!!!!!!!!!!!HEADER!!!!!!!!!!!!!!!!*/-->
 <header>
     <div class="container">
@@ -48,7 +71,7 @@
             <h1>Вам нужен фирменный <br> стиль или ребрендинг?</h1>
             <p>Разработаем в срок от 10-ти дней</p>
             <a class="btn" href="#">Портфолио</a>
-            <a class="btn" href="#">Оставить заявку</a>
+            <a class="btn" id="opener" href="#">Оставить заявку</a>
         </div>
     </div>
     <div class="owl-carousel">
@@ -489,9 +512,10 @@
         @ FREE.creative 2008—2021
     </div>
 </footer>
-<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="https://kit.fontawesome.com/41bcebc9a3.js" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
 <script src="js/owl.carousel.min.js"></script>
+<script src="https://code.jquery.com/ui/1.13.0/jquery-ui.js"></script>
 <script src="js/scripts.js"></script>
 
 </body>
