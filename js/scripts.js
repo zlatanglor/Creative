@@ -35,8 +35,10 @@ $(document).ready(function(){
         },
         width: 648,
         height: 495,
-        modal: true
-        // title: false
+        modal: true,
+        draggable: false,
+        closeOnEscape: false,
+        resizable: false
     });
     $( "#opener" ).on( "click", function() {
         $( "#dialog" ).dialog( "open" );
