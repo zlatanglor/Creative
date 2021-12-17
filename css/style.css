@@ -901,6 +901,11 @@ footer{
     background: none;
     border: none;
 }
+/*dialog*/
+/*.ui-dialog{*/
+/*    max-width: 510px!important;*/
+/*    width: 100%!important;*/
+/*}*/
 .ui-dialog .ui-dialog-titlebar-close{
     width: 30px;
     height: 30px;
