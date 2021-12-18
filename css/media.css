@@ -434,7 +434,7 @@
     }
     .banner{
         background-image: url("../images/background_mobile.jpg");
-        min-height: 350px;
+        min-height: 715px;
     }
     .position{
         top: 307px;
@@ -765,6 +765,9 @@
 @media only screen and (max-width: 767px) {
     .container{
         max-width: 510px;
+    }
+    .banner{
+        min-height: 350px;
     }
     .position{
         top: 148px;
